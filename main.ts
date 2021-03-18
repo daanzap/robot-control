@@ -18,16 +18,22 @@ namespace aiCaptainRobot {
     function left_backward () {
         pins.digitalWritePin(DigitalPin.P8, 1)
     }
+    //% blockId=rightOneStep
+    //% block="right one step"
     export function rightOneStep () {
         turnRight()
         basic.pause(step_time)
         all_stop()
     }
+    //% blockId=leftOneStep
+    //% block="left one step"
     export function leftOneStep () {
         turnLeft()
         basic.pause(step_time)
         all_stop()
     }
+    //% blockId=backwardsOneStep
+    //% block="backward one step"
     export function backwardOneStep () {
         driveBackwards()
         basic.pause(step_time)
@@ -38,6 +44,8 @@ namespace aiCaptainRobot {
         right_forward()
         left_backward()
     }
+    //% blockId=forwardwardsOneStep
+    //% block="forward one step"
     export function forwardOneStep () {
         driveForward()
         basic.pause(step_time)
