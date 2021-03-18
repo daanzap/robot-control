@@ -4,11 +4,9 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "pxt-sonar": "github:microsoft/pxt-sonar#v0.0.4",
         "microphone": "*"
     },
     "files": [
-        "main.blocks",
         "main.ts",
         "README.md"
     ],
