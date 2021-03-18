@@ -1,5 +1,5 @@
 {
-    "name": "MBA robot",
+    "name": "ai-aptain-robot-extention",
     "description": "",
     "dependencies": {
         "core": "*",
